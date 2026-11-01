@@ -43,7 +43,12 @@ body {
 /* ===== [END] SAMEER ALI - HOME PAGE CSS ===== */
 
 /* ===== [START] HASSAN ZUBAIR - MENU PAGE CSS ===== */
-/* HASSAN: delete this line and paste your CSS here */
+.menu-section h3 { color: #176b55; border-bottom: 2px solid #dceee8; padding-bottom: 6px; }
+.menu-section ul { padding-left: 20px; }
+.menu-section li { margin: 6px 0; }
+@media (max-width: 600px) {
+  .menu-section li { font-size: 0.95rem; }
+}
 /* ===== [END] HASSAN ZUBAIR - MENU PAGE CSS ===== */
 
 /* ===== [START] MUEEZ AHMED - DEALS PAGE CSS ===== */
