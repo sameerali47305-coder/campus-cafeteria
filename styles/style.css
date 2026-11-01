@@ -52,7 +52,24 @@ body {
 /* ===== [END] HASSAN ZUBAIR - MENU PAGE CSS ===== */
 
 /* ===== [START] MUEEZ AHMED - DEALS PAGE CSS ===== */
-/* MUEEZ: delete this line and paste your CSS here */
+.deal-card {
+  border-left: 5px solid #e58a2b;
+}
+
+.deal-card h3 {
+  margin-top: 0;
+  color: #9b4b00;
+}
+
+@media (max-width: 600px) {
+  .deal-card {
+    border-left-width: 3px;
+  }
+
+  .deal-card h3 {
+    font-size: 1.1rem;
+  }
+}
 /* ===== [END] MUEEZ AHMED - DEALS PAGE CSS ===== */
 
 /* ===== [START] HAMMAD SAEED - ORDER PAGE CSS ===== */
