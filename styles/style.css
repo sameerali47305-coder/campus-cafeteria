@@ -81,7 +81,15 @@ body {
 /* ===== [END] HAMMAD SAEED - ORDER PAGE CSS ===== */
 
 /* ===== [START] JUNAID - FEEDBACK PAGE CSS ===== */
-/* JUNAID: delete this line and paste your CSS here */
+.feedback-form { display: grid; gap: 8px; }
+.feedback-form input, .feedback-form textarea {
+  width: 100%; padding: 10px; border: 1px solid #b9c4d2;
+  border-radius: 6px; font: inherit;
+}
+.feedback-form button { justify-self: start; }
+@media (max-width: 600px) {
+  .feedback-form button { width: 100%; justify-self: stretch; }
+}
 /* ===== [END] JUNAID - FEEDBACK PAGE CSS ===== */
 
 /* ===== [START] SAMEER ALI - RESPONSIVE CSS (global) ===== */
