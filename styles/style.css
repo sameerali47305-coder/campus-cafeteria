@@ -31,23 +31,65 @@ body {
 .site-footer { padding: 16px; text-align: center; background: #12345a; color: white; }
 
 /* ===== [START] SAMEER ALI - HOME PAGE CSS ===== */
-/* SAMEER: delete this line and paste your CSS here */
+.hero {
+  background: white; padding: 36px 24px; margin: 16px 0; text-align: center;
+  border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.07);
+}
+.hero h2 { margin-top: 0; color: #12345a; font-size: 2rem; }
+@media (max-width: 600px) {
+  .hero { padding: 24px 14px; }
+  .hero h2 { font-size: 1.4rem; }
+}
 /* ===== [END] SAMEER ALI - HOME PAGE CSS ===== */
 
 /* ===== [START] HASSAN ZUBAIR - MENU PAGE CSS ===== */
-/* HASSAN: delete this line and paste your CSS here */
+.menu-section h3 { color: #176b55; border-bottom: 2px solid #dceee8; padding-bottom: 6px; }
+.menu-section ul { padding-left: 20px; }
+.menu-section li { margin: 6px 0; }
+@media (max-width: 600px) {
+  .menu-section li { font-size: 0.95rem; }
+}
 /* ===== [END] HASSAN ZUBAIR - MENU PAGE CSS ===== */
 
 /* ===== [START] MUEEZ AHMED - DEALS PAGE CSS ===== */
-/* MUEEZ: delete this line and paste your CSS here */
+.deal-card {
+  border-left: 5px solid #e58a2b;
+}
+
+.deal-card h3 {
+  margin-top: 0;
+  color: #9b4b00;
+}
+
+@media (max-width: 600px) {
+  .deal-card {
+    border-left-width: 3px;
+  }
+
+  .deal-card h3 {
+    font-size: 1.1rem;
+  }
+}
 /* ===== [END] MUEEZ AHMED - DEALS PAGE CSS ===== */
 
 /* ===== [START] HAMMAD SAEED - ORDER PAGE CSS ===== */
-/* HAMMAD: delete this line and paste your CSS here */
+.steps li { margin: 12px 0; padding-left: 4px; }
+.steps li::marker { color: #176b55; font-weight: bold; }
+@media (max-width: 600px) {
+  .steps { padding-left: 20px; }
+}
 /* ===== [END] HAMMAD SAEED - ORDER PAGE CSS ===== */
 
 /* ===== [START] JUNAID - FEEDBACK PAGE CSS ===== */
-/* JUNAID: delete this line and paste your CSS here */
+.feedback-form { display: grid; gap: 8px; }
+.feedback-form input, .feedback-form textarea {
+  width: 100%; padding: 10px; border: 1px solid #b9c4d2;
+  border-radius: 6px; font: inherit;
+}
+.feedback-form button { justify-self: start; }
+@media (max-width: 600px) {
+  .feedback-form button { width: 100%; justify-self: stretch; }
+}
 /* ===== [END] JUNAID - FEEDBACK PAGE CSS ===== */
 
 /* ===== [START] SAMEER ALI - RESPONSIVE CSS (global) ===== */
