@@ -1,0 +1,61 @@
+/* ==================================================
+   SHARED BASE CSS - Owner: Sameer Ali (Team Lead)
+   Do NOT edit this section. Ask Sameer if you need a change.
+   ================================================== */
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: Arial, sans-serif;
+  line-height: 1.6; color: #243047; background: #f5f7fb;
+}
+.site-header {
+  padding: 22px 5%; background: #12345a; color: white; text-align: center;
+}
+.site-header h1 { margin: 0 0 6px; }
+.site-nav {
+  display: flex; justify-content: center; flex-wrap: wrap;
+  gap: 10px; margin-top: 14px;
+}
+.site-nav a {
+  color: white; text-decoration: none; padding: 8px 12px; border-radius: 6px;
+}
+.site-nav a:hover { background: #245b8f; }
+.container { width: min(1000px, 92%); margin: 28px auto; }
+.card, .menu-section, .deal-card {
+  background: white; padding: 20px; margin: 16px 0;
+  border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.07);
+}
+.button {
+  display: inline-block; border: 0; padding: 10px 16px; border-radius: 6px;
+  background: #e58a2b; color: white; text-decoration: none; cursor: pointer;
+}
+.site-footer { padding: 16px; text-align: center; background: #12345a; color: white; }
+
+/* ===== [START] SAMEER ALI - HOME PAGE CSS ===== */
+/* SAMEER: delete this line and paste your CSS here */
+/* ===== [END] SAMEER ALI - HOME PAGE CSS ===== */
+
+/* ===== [START] HASSAN ZUBAIR - MENU PAGE CSS ===== */
+/* HASSAN: delete this line and paste your CSS here */
+/* ===== [END] HASSAN ZUBAIR - MENU PAGE CSS ===== */
+
+/* ===== [START] MUEEZ AHMED - DEALS PAGE CSS ===== */
+/* MUEEZ: delete this line and paste your CSS here */
+/* ===== [END] MUEEZ AHMED - DEALS PAGE CSS ===== */
+
+/* ===== [START] HAMMAD SAEED - ORDER PAGE CSS ===== */
+/* HAMMAD: delete this line and paste your CSS here */
+/* ===== [END] HAMMAD SAEED - ORDER PAGE CSS ===== */
+
+/* ===== [START] JUNAID - FEEDBACK PAGE CSS ===== */
+/* JUNAID: delete this line and paste your CSS here */
+/* ===== [END] JUNAID - FEEDBACK PAGE CSS ===== */
+
+/* ===== [START] SAMEER ALI - RESPONSIVE CSS (global) ===== */
+@media (max-width: 600px) {
+  .site-header { padding: 16px 4%; }
+  .site-nav { flex-direction: column; align-items: stretch; }
+  .site-nav a { display: block; }
+  .container { width: 94%; margin: 16px auto; }
+  .card, .menu-section, .deal-card { padding: 14px; }
+}
+/* ===== [END] SAMEER ALI - RESPONSIVE CSS (global) ===== */
