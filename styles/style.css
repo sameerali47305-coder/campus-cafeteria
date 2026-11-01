@@ -73,7 +73,11 @@ body {
 /* ===== [END] MUEEZ AHMED - DEALS PAGE CSS ===== */
 
 /* ===== [START] HAMMAD SAEED - ORDER PAGE CSS ===== */
-/* HAMMAD: delete this line and paste your CSS here */
+.steps li { margin: 12px 0; padding-left: 4px; }
+.steps li::marker { color: #176b55; font-weight: bold; }
+@media (max-width: 600px) {
+  .steps { padding-left: 20px; }
+}
 /* ===== [END] HAMMAD SAEED - ORDER PAGE CSS ===== */
 
 /* ===== [START] JUNAID - FEEDBACK PAGE CSS ===== */
